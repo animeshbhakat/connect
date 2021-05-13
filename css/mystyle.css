@@ -1,6 +1,12 @@
 body {
     font-family: "Open Sans";
+    
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%); 
 }
 h1, h2, h3, .h1, .h2, .h3{
     font-family: "Montserrat";
+}
+.list-group-item-action{
+    font-family: "Montserrat";
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
 }
