@@ -6,7 +6,15 @@ body {
 h1, h2, h3, .h1, .h2, .h3{
     font-family: "Montserrat";
 }
-.list-group-item-action{
+.list-group-item-action, 
+.list-group-item-action:first-child, 
+.list-group-item-action:last-child{
     font-family: "Montserrat";
     background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    border-radius: 12px;
 }
+.logo{
+    max-width: 120px;
+    border-radius: 50%;
+}
+
